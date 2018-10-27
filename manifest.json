@@ -1,0 +1,19 @@
+{
+  "name": "APP Avisos",
+  "short_name": "APP de Avisos",
+  "description": "Aplicación de avisos",
+  "background_color": "#d81b60",
+  "theme_color": "#000",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": "./?utm=homescreen",
+  "scope": "./",
+  "lang": "es-PE",
+  "icons": [
+    {
+      "src": "./appavisos.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    }
+  ]
+}
