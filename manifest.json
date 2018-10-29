@@ -2,7 +2,7 @@
   "name": "APP Avisos",
   "short_name": "APP Avisos",
   "description": "APP Avisos",
-  "background_color": "#ff9800",
+  "background_color": "#2196f3",
   "theme_color": "#000",
   "orientation": "portrait",
   "display": "standalone",
