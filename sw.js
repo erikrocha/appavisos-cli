@@ -2,11 +2,11 @@ const CACHE_NAME = 'appavisos'
 const cache_link = [
     './',
     './index.html',
-    '.static/css/style.css'
+    './static/css/style.css'
 ]
 
 self.addEventListener('install', e => {
-    console.log('service worker installed')
+    console.log('SW installed')
     e.waitUntil(
         caches.open(CACHE_NAME)
         .then(cache => {
@@ -19,7 +19,7 @@ self.addEventListener('install', e => {
 })
 
 self.addEventListener('activate', e => {
-    console.log('Evento: SW Activado')
+    console.log('SW activated')
     const cacheWhitelist = [CACHE_NAME]
   
     e.waitUntil(
@@ -41,7 +41,7 @@ self.addEventListener('activate', e => {
   })
 
 self.addEventListener('fetch', e => {
-    console.log('service worker recovery')
+    console.log('SW recovery')
   
     e.respondWith(
       caches.match(e.request)
