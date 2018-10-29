@@ -1,8 +1,8 @@
 {
   "name": "APP Avisos",
-  "short_name": "APP de Avisos",
-  "description": "Aplicación de avisos",
-  "background_color": "#d81b60",
+  "short_name": "APP Avisos",
+  "description": "APP Avisos",
+  "background_color": "#ff9800",
   "theme_color": "#000",
   "orientation": "portrait",
   "display": "standalone",
